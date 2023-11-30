@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harig1511_spring_petclinic_1701327930601-push-trigger-input-set
+  identifier: Build_harig1511_spring_petclinic_1701327930601pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_harig1511_spring_petclinic_1701327930601
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
