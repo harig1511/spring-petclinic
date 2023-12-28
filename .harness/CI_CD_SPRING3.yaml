@@ -32,5 +32,5 @@ pipeline:
                   spec:
                     shell: Sh
                     command: |-
-                      mvn clean install
+                      mvn install
                       echo "build is successful"
